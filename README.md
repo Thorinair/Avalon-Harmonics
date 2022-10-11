@@ -4,7 +4,7 @@
   <img 
     width="512"
     height="136"
-    src="https://raw.githubusercontent.com/Thorinair/Avalon-Harmonics/master/img/logo.png"
+    src="https://raw.githubusercontent.com/Thorinair/Avalon-Harmonics/master/logo.png"
   >
 </p>
 
