@@ -3,7 +3,7 @@
 <p align="center">
   <img 
     width="512"
-    height="136"
+    height="146"
     src="https://raw.githubusercontent.com/Thorinair/Avalon-Harmonics/master/logo.png"
   >
 </p>
