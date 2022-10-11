@@ -2,7 +2,9 @@
 
 <p align="center">
   <img 
-    src="ttps://raw.githubusercontent.com/Thorinair/Avalon-Harmonics/master/img/logo.png"
+    width="512"
+    height="136"
+    src="https://raw.githubusercontent.com/Thorinair/Avalon-Harmonics/master/img/logo.png"
   >
 </p>
 
