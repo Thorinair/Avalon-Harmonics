@@ -8,7 +8,7 @@ Each slew limiter can have a slew speed from a very short one to a very long one
 
 The outputs have circuitry which mitigate voltage drop issues, allowing it to be used for slewing 1V/OCT signals as well. Additionally, both channels have a bipolar LED to monitor the output.
 
-**Features:**
+### Features
 
 * Dual slew limiter
 * Independent rise and fall speed

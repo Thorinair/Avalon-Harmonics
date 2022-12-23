@@ -8,7 +8,7 @@ The module offers simple 2-stage wave folding in a compact format, which allows 
 
 Additionally, the module has two trimmers on the PCB which allows for adjustment to the wave shaping. These can be used to tune an irregular shape or to compensate for assymetric power supply of the rack.
 
-**Features:**
+### Features
 
 * Slim 2hp design
 * Signal input with a volume knob

@@ -12,7 +12,7 @@ The module also has an extra white noise output jack. This noise is internally u
 
 Lastly a bipolar LED shows the status of the output of the module.
 
-**Features:**
+### Features
 
 * S&H with multiple extra features
 * Sample from CV or random

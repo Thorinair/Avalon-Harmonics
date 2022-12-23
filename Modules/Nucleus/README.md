@@ -12,7 +12,7 @@ All outputs can be completely disabled by flipping the switch. This keeps the Ge
 
 Lastly, there is an LED on the input next to the tube alcove, signifying Geiger counter clicks. Two more LEDs are placed above the trigger output and gate output to allow for monitoring of the outputs.
 
-**Features:**
+### Features
 
 * Geiger counter randomizer
 * Accessible Geiger-Müller tube
