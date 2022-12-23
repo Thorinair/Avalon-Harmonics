@@ -12,6 +12,7 @@ This repository provides a collection of modular synthesizer modules designed by
 
 * **Official Website:** [avalon-harmonics.com](https://avalon-harmonics.com/)
 * **Official Twitter:** [@AvalonHarmonics](https://twitter.com/AvalonHarmonics)
+* **Official Instagram:** [avalonharmonics](https://www.instagram.com/avalonharmonics/)
 
 ## Licensing
 
