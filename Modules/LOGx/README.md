@@ -15,4 +15,6 @@ Each of the two gates also have a status LED which signifies whether the output 
 * Voltage protected inputs
 * Status LEDs for output
 * Wrong polarity protection
+* Size: 3HP
+* Depth: 36mm
 * Power: +12V: 5mA, -12V: 0mA

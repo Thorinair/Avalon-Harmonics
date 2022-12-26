@@ -21,4 +21,6 @@ Lastly, there is an LED on the input next to the tube alcove, signifying Geiger 
 * Gate duration knob
 * Inverted gate output
 * Wrong polarity protection
+* Size: 8HP
+* Depth: 56mm
 * Power: +12V: 11mA, -12V: 0mA

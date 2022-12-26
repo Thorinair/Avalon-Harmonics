@@ -15,4 +15,6 @@ Additionally, the module has two trimmers on the PCB which allows for adjustment
 * Offset CV with an attenuation knob
 * Static DC offset knob
 * Wrong polarity protection
+* Size: 2HP
+* Depth: 69mm
 * Power: +12V: 9mA, -12V: 9mA

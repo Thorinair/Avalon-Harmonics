@@ -21,4 +21,6 @@ Additionally, each channel can forward its output to the next channel by placing
 * Channel behavior configurable with jumpers
 * Optional forwarding to next channels
 * Wrong polarity protection
+* Size: 20HP
+* Depth: 20mm
 * Power: +12V: 60mA, -12V: 60mA

@@ -21,4 +21,6 @@ Lastly a bipolar LED shows the status of the output of the module.
 * Extra white noise output
 * Status LED for output
 * Wrong polarity protection
+* Size: 3HP
+* Depth: 56mm
 * Power: +12V: 21mA, -12V: 21mA

@@ -15,4 +15,6 @@ The outputs have circuitry which mitigate voltage drop issues, allowing it to be
 * Linear slew curve
 * Status LEDs for output
 * Wrong polarity protection
+* Size: 3HP
+* Depth: 41mm
 * Power: +12V: 23mA, -12V: 23mA
