@@ -1,8 +1,8 @@
 # Avalon Harmonics MiX
 
-**Compact three channel mixer**
+**Compact three channel mono mixer**
 
-MiX is a simple three channel mixer with a focus on compactness. Measuring only 2 HP, it can easily fit somewhere in the rack where there is leftover unused space.
+MiX is a simple three channel mono mixer with a focus on compactness. Measuring only 2 HP, it can easily fit somewhere in the rack where there is leftover unused space.
 
 The mixer features 3 inputs and a single output. Each input has a volume/attenuation knob. Due to the circuit's simplicity, the mixer can be used both for audio and CV signals.
 
