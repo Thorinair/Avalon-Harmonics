@@ -10,7 +10,7 @@ Additionally, the module has two trimmers on the PCB which allows for adjustment
 
 ### Features
 
-* Slim 2hp design
+* Slim 2 HP design
 * Signal input with a volume knob
 * Offset CV with an attenuation knob
 * Static DC offset knob
