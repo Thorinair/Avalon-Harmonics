@@ -4,7 +4,7 @@
 
 S&S is a complex module which offers multiple features in a tight 3hp package.
 
-In its core, it is a sample & hold module with standard input and trigger jacks. The input that can be sampled can range from around 10V to -4.5V. If the value is outside this range, it will be clipped but won't damage the module. Note that the sampled value will slowly drop down with time towards around -6V, so if sampling 1V/OCT, it is best to use it for shorter notes.
+In its core, it is a sample & hold module with standard input and trigger jacks. The input that can be sampled and can range from around 10V to -4.5V. If the value is outside this range, it will be clipped but won't damage the module. Note that the sampled value will slowly drop down with time towards around -6V, so if sampling 1V/OCT, it is best to use it for shorter notes.
 
 It can also perform sampling from a built in random source. This allows it to be used as a randomizer. The random source generally generates values between -2.5V and +2.5V, but can randomly assume any value within the sampleable range. Note that in this mode, the module will default to -6V when turned on for the first time. Source of the sampled values can be chosen with the top-most switch.
 
