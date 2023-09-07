@@ -4,9 +4,9 @@
 
 The module provides 8 channels of independent CV attenuation and offset controls.
 
-Each channel can be used as a static slider controlled voltage source. The way how this behaves can be adjusted for each channel separately using jumpers on the back of the PCB. In one position, the source can range from -5V to +5V depending on the position of the slider. In the other position, the source can range from 0V to +6.67V.
+Each channel can be used as a static slider controlled voltage source. The output voltage can be bipolar (-5V to +5V)  or unipolar (0V to +6.67V) by adjusting jumpers on the back of the PCB. This can be adjusted for each channel individually.
 
-Each channel also has a signal input with a corresponding attenuation knob. This means that a CV signal can be fed into the channel, attenuated and offset using the slider. The output is available in the top most jacks.
+Each channel also has a signal input with a corresponding attenuation knob. This means that a CV signal can be fed into the channel and then attenuated and offset using the slider. The output is available in the top most jacks.
 
 A bipolar LED exists for each channel as a clear indicator of the status of the output voltage.
 
