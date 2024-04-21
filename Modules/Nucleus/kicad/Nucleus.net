@@ -277,7 +277,7 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "4632273d-adbd-4fba-8873-f29b5bc7c3ce"))
     (comp (ref "R1")
-      (value "220")
+      (value "10")
       (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
       (libsource (lib "Device") (part "R_Small") (description "Resistor, small symbol"))
       (property (name "Sheetname") (value ""))
