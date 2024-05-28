@@ -2,7 +2,7 @@
 
 **Mono VU meter with envelope follower output**
 
-**NOTE: This module is rather deep at 66mm without cable. Make sure to check if it fits in your case.**
+**NOTE: This module is rather deep at 66mm to the tip of the power pins. Make sure to check if it fits in your case.**
 
 VU is a highly compact mono VU meter and envelope follower. The VU display consists of 5 yellow, 3 orange, and 2 red LEDs. The module provides an input jack on the bottom, and a buffered output jack on top, allowing it to be placed right before the master output if so desired. Note that there is no AC coupling, so the module can also be used with slow moving CV signals if so desired.
 

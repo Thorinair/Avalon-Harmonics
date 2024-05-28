@@ -2,7 +2,7 @@
 
 **WaveFolder with DC offset controls and offset CV**
 
-**NOTE: This module is rather deep at 69mm without cable. Make sure to check if it fits in your case.**
+**NOTE: This module is rather deep at 69mm to the tip of the power pins. Make sure to check if it fits in your case.**
 
 WF is Avalon Harmonics' first module ever.
 
