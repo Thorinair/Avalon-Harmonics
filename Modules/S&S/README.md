@@ -2,6 +2,8 @@
 
 **S&H with built in random, slew limiter and noise source**
 
+**NOTE: New models of S&S use a smaller 2.2uF capacitor for slewing. This allows the slewing knob to have more sweet spots in lower ranges. Additionally, the module has a considerably smaller depth.**
+
 S&S is a complex module which offers multiple features in a tight 3hp package.
 
 In its core, it is a sample & hold module with standard input and trigger jacks. The input that can be sampled and can range from around 10V to -4.5V. If the value is outside this range, it will be clipped but won't damage the module. Note that the sampled value will slowly drop down with time towards around -6V, so if sampling 1V/OCT, it is best to use it for shorter notes.
@@ -24,5 +26,5 @@ Lastly a bipolar LED shows the status of the output of the module.
 * Status LED for output
 * Wrong polarity protection
 * Size: 3HP
-* Depth: 56mm
+* Depth: 48mm
 * Power: +12V: 21mA, -12V: 19mA
