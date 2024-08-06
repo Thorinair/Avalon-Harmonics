@@ -18,6 +18,8 @@ In order to make the module compatible for different rack setups, a trimmer on t
 
 Lastly, the brightness of the last LED can be adjusted with a trimmer on the PCB (T_LED). The brightness can range from around same brightness like all other LEDs, to much brighter. Making the last LED brighter might be desireable to make the peak more visually obvious.
 
+Visit Website: https://avalon-harmonics.com/module/VU/
+
 ### Features
 
 * Slim 2 HP design

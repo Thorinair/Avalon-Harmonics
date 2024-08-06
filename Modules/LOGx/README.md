@@ -10,6 +10,8 @@ The gates are polarity protected and will also not get damaged by any eurorack v
 
 Each of the two gates also have a status LED which signifies whether the output is high or low. When high, the output is at +5V.
 
+Visit Website: https://avalon-harmonics.com/module/LOGx/
+
 ### Features
 
 * Dual logic gates

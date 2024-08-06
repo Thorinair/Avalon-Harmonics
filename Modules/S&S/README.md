@@ -16,6 +16,8 @@ The module also has an extra white noise output jack. This noise is internally u
 
 Lastly a bipolar LED shows the status of the output of the module.
 
+Visit Website: https://avalon-harmonics.com/module/SnS/
+
 ### Features
 
 * S&H with multiple extra features

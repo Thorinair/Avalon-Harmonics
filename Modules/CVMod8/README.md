@@ -12,6 +12,8 @@ A bipolar LED exists for each channel as a clear indicator of the status of the 
 
 Additionally, each channel can forward its output to the next channel by placing jumpers on the back of the PCB. This allows the module to be configured for use as a sort of CV or signal mixer.
 
+Visit Website: https://avalon-harmonics.com/module/CVMod8/
+
 ### Features
 
 * 8 independent channels

@@ -16,6 +16,8 @@ A bipolar LED is also included and shows the current state of the CV. Green repr
 2. Set the VOL knob all the way clockwise and input a loud signal to both L and R IN.
 3. Listen to the L and R OUT signals and adjust T_OFFS so that it is silent, but right on the edge of being silent.
 
+Visit Website: https://avalon-harmonics.com/module/iVCA/
+
 ### Features
 
 * Compact 4 HP design

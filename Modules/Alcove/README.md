@@ -6,6 +6,8 @@ Alcove is a simple "module" similar to a blank, but provides a 50mm deep slot wh
 
 The module is fully 3D printed as one piece and, just like a blank, features no electronics.
 
+Visit Website: https://avalon-harmonics.com/module/Alcove/
+
 ### Features
 
 * Storage for manuals and cheat sheets

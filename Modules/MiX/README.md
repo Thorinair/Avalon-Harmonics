@@ -6,6 +6,8 @@ MiX is a simple three channel mono mixer with a focus on compactness. Measuring 
 
 The mixer features 3 inputs and a single output. Each input has a volume/attenuation knob. Due to the circuit's simplicity, the mixer can be used both for audio and CV signals.
 
+Visit Website: https://avalon-harmonics.com/module/MiX/
+
 ### Features
 
 * Slim 2 HP design
