@@ -6,6 +6,6 @@ Sub-Miniature Switch Wrench is a 3D printable tool designed to help tighten nuts
 
 **NOTE: The tool should last a long time, but we are unable to guarantee that it will last forever. Make sure not to overtighten to prolong the lifetime!**
 
-Inspired by a the design of [Eurorack pot wrench](https://makerworld.com/en/models/524871#profileId-498872) by Felix Wiegand!
+Need a potentiometer wrench? Have a look at [Eurorack pot wrench](https://makerworld.com/en/models/524871#profileId-498872) by Felix Wiegand, which inspired this design!
 
 Visit Website: https://avalon-harmonics.com/tool/Sub-Miniature_Switch_Wrench/
