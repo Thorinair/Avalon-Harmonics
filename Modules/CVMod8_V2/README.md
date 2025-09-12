@@ -2,7 +2,7 @@
 
 **8 channel CV attenuverter, offset and mixer**
 
-CVMod8 V2 is successor to our old CVMod8. The module provides 8 channels of independent CV attenuverters and offset controls, as well as offset polarity switches and forward switches for mixing the channels together.
+CVMod8 V2 is successor to the old CVMod8. The module provides 8 channels of independent CV attenuverters and offset controls, as well as offset polarity switches and forward switches for mixing the channels together.
 
 Each channel can be used as a static voltage source with the output available on the top-most row of jacks. Sliders control the voltage, and the voltage can be bipolar (+5V to -5V) or unipolar (+5V to 0V) by flipping the corresponding switch on the bottom. Behavior is bipolar when switched to the left and unipolar when switched to the right. Internally, voltage regulators ensure a precise voltage source. Note that there is a 5V spike when switching the polarity.
 
