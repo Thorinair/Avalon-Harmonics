@@ -4,7 +4,7 @@
 
 Pulse is a module which links your heartbeat directly with your Eurorack setup by reading your pulse and converting it into usable CV signals, gates and triggers. You could drive your whole racks's BPM using your own heartbeat!
 
-The sensor is worn on a finger and reads the body's pulse using a green LED PulseSensor. This signal is directly used to drive analog circuitry in the module. Status of the pulse can be monitored on the bipolar LED in the middle of the heart graphic on top of the module.
+The sensor is worn on a finger and reads the body's pulse using the original green LED [PulseSensor](https://pulsesensor.com/). This signal is directly used to drive analog circuitry in the module. Status of the pulse can be monitored on the bipolar LED in the middle of the heart graphic on top of the module.
 
 First set of available outputs are the CV value of the pulse, as well as an inverted CV value of the pulse. Both are available in the upper section of the module. LVL knob can be used to control the intensity of both of these outputs. Behavior of the outputs can change depending on how hard your heart is beating and how well the sensor is pressed against the skin. In normal operation, the outputs will behave like pulse shaped LFOs synced to the heartbeat.
 
