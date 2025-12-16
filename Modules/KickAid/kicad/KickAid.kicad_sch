@@ -6,7 +6,7 @@
 	(paper "A3" portrait)
 	(title_block
 		(title "Avalon Harmonics KickAid")
-		(rev "v1.1")
+		(rev "v1.2")
 		(company "Avalon Harmonics")
 	)
 	(lib_symbols
@@ -5905,6 +5905,12 @@
 		(uuid "ca9d05a3-0435-46d1-990a-3f9ea15a9459")
 	)
 	(junction
+		(at 41.91 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce4a6cea-a1f7-4f95-a49f-c2f390b1f167")
+	)
+	(junction
 		(at 186.69 308.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6029,10 +6035,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcde27d4-9262-480c-bfd4-d575736e778b")
-	)
-	(no_connect
-		(at 40.64 33.02)
-		(uuid "13961db1-eb4b-4d43-803f-3c248235b7bd")
 	)
 	(no_connect
 		(at 40.64 82.55)
@@ -10966,6 +10968,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 33.02) (xy 41.91 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8586c4e-38ff-45e3-86c6-a68863cae321")
+	)
+	(wire
+		(pts
 			(xy 180.34 196.85) (xy 182.88 196.85)
 		)
 		(stroke
@@ -11273,6 +11285,16 @@
 			(type default)
 		)
 		(uuid "c44e899c-b577-4c1c-8a21-f61baf2244e1")
+	)
+	(wire
+		(pts
+			(xy 41.91 33.02) (xy 41.91 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48f9fc7-812a-494d-81ec-abee526700c5")
 	)
 	(wire
 		(pts
@@ -13939,7 +13961,7 @@
 			(uuid "a1dffdc0-4298-4b59-a0e1-2bf943e9960a")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R22")
 					(unit 1)
@@ -14006,7 +14028,7 @@
 			(uuid "c692cd08-b1d6-40a2-974c-10fcfceae666")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C3")
 					(unit 1)
@@ -14071,7 +14093,7 @@
 			(uuid "ad0c960f-44a7-4b4c-9a28-80cec2e54ccc")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR052")
 					(unit 1)
@@ -14139,7 +14161,7 @@
 			(uuid "e4301ef6-b604-41c1-ada7-7320757377d3")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R8")
 					(unit 1)
@@ -14206,7 +14228,7 @@
 			(uuid "afd0f4d3-d460-446c-b9f1-b709415bf2db")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR056")
 					(unit 1)
@@ -14289,7 +14311,7 @@
 			(uuid "91b48c3c-5461-4f8e-82a4-191b8b3a1f2b")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_A7")
 					(unit 1)
@@ -14375,7 +14397,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8aa")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN3")
 					(unit 3)
@@ -14442,7 +14464,7 @@
 			(uuid "eac8e714-352f-4557-a262-bd872b462413")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R30")
 					(unit 1)
@@ -14528,7 +14550,7 @@
 			(uuid "6c19b034-92c0-40e9-a31f-be9effd82c10")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN4")
 					(unit 3)
@@ -14596,7 +14618,7 @@
 			(uuid "afef3547-460e-43ab-b239-cdd81779cd77")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R1")
 					(unit 1)
@@ -14662,7 +14684,7 @@
 			(uuid "c4809f76-d68a-4267-9e0e-f08215912a85")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR010")
 					(unit 1)
@@ -14728,7 +14750,7 @@
 			(uuid "1f1d4582-41b4-4b78-a54d-8646b5aa3974")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR048")
 					(unit 1)
@@ -14813,7 +14835,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8ad")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN2")
 					(unit 3)
@@ -14879,7 +14901,7 @@
 			(uuid "a51ec8ed-af57-4785-a22c-3b2c29002b75")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR05")
 					(unit 1)
@@ -14966,7 +14988,7 @@
 			(uuid "9676ec1a-2034-4d8e-922c-71798a812728")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "D12")
 					(unit 1)
@@ -15052,7 +15074,7 @@
 			(uuid "cb5420b5-3401-45d6-ac58-322f9ace4012")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U7")
 					(unit 1)
@@ -15122,7 +15144,7 @@
 			(uuid "1f11e0ae-717e-47ac-9efd-a532ed8f7401")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "P_FALL1")
 					(unit 1)
@@ -15187,7 +15209,7 @@
 			(uuid "3b0ec562-d473-43fe-92d6-2e12d8ad847e")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR060")
 					(unit 1)
@@ -15290,7 +15312,7 @@
 			(uuid "66d1cdc6-bf7f-48f1-8a37-5af3a38149c9")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U8")
 					(unit 6)
@@ -15362,7 +15384,7 @@
 			(uuid "188f01f8-7d38-40ad-ac91-c472b0b64226")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "SW_SRC1")
 					(unit 1)
@@ -15468,7 +15490,7 @@
 			(uuid "3752bb72-709a-4d3f-a4c3-b95f926931a7")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U2")
 					(unit 1)
@@ -15535,7 +15557,7 @@
 			(uuid "c5931000-3d5a-4912-9ec3-cd15f129b848")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR042")
 					(unit 1)
@@ -15639,7 +15661,7 @@
 			(uuid "1ae3e1d0-daed-48c3-adfe-76fd063334fb")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U3")
 					(unit 4)
@@ -15705,7 +15727,7 @@
 			(uuid "f5829c83-b12a-4d26-af82-c572db7b107e")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR046")
 					(unit 1)
@@ -15771,7 +15793,7 @@
 			(uuid "037a8c0d-97f0-4a89-82d6-e2c68b88b435")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR055")
 					(unit 1)
@@ -15839,7 +15861,7 @@
 			(uuid "8cf32abb-b812-461c-bf37-904d21483844")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R28")
 					(unit 1)
@@ -15921,7 +15943,7 @@
 			(uuid "2c9adb50-34ef-4149-aef3-773ae56dcd10")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "Q1")
 					(unit 2)
@@ -15987,7 +16009,7 @@
 			(uuid "c82a3005-8c88-424a-9e4f-77df23f16c7c")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR06")
 					(unit 1)
@@ -16055,7 +16077,7 @@
 			(uuid "7bf50e5d-fead-4803-89a7-4e201ae517a1")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R25")
 					(unit 1)
@@ -16123,7 +16145,7 @@
 			(uuid "907b0c5c-22f5-4de4-82df-06bad0f4a426")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R24")
 					(unit 1)
@@ -16194,7 +16216,7 @@
 			(uuid "1a660ab0-306e-4d9b-aaab-97acc5bcd086")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U9")
 					(unit 1)
@@ -16280,7 +16302,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8ae")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN4")
 					(unit 1)
@@ -16345,7 +16367,7 @@
 			(uuid "758f770d-4a15-490f-b3b4-185ba59a2aef")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR038")
 					(unit 1)
@@ -16440,7 +16462,7 @@
 			(uuid "0d861df2-ee14-41ed-81b4-5cef693afba8")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "LD_G1")
 					(unit 1)
@@ -16507,7 +16529,7 @@
 			(uuid "5e9c9eee-9e36-4f85-97dd-a11fcc217fc4")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#FLG02")
 					(unit 1)
@@ -16584,7 +16606,7 @@
 			(uuid "c8380964-a680-4de0-99e6-b261679081b6")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_B3")
 					(unit 1)
@@ -16651,7 +16673,7 @@
 			(uuid "f0ca5b8c-a4cd-46e5-b9f9-b200eb78b3d5")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR027")
 					(unit 1)
@@ -16716,7 +16738,7 @@
 			(uuid "05157184-cbbb-4612-9092-55bde783d58e")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR01")
 					(unit 1)
@@ -16784,7 +16806,7 @@
 			(uuid "59dffe07-d11d-43bb-97b5-201732137a37")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C4")
 					(unit 1)
@@ -16854,7 +16876,7 @@
 			(uuid "39401647-6bf7-49dc-9a9a-f39e8a8d9a16")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "P_IN1")
 					(unit 1)
@@ -16959,7 +16981,7 @@
 			(uuid "441ec4de-9714-4195-9285-106e74502198")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U5")
 					(unit 5)
@@ -17024,7 +17046,7 @@
 			(uuid "e82919dc-dfe0-4307-924e-f010d9ecff14")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR039")
 					(unit 1)
@@ -17049,7 +17071,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "15k"
 			(at 87.63 64.77 0)
 			(effects
 				(font
@@ -17091,7 +17113,7 @@
 			(uuid "203437b9-19f1-4f17-a2b8-f4a9d571333e")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R10")
 					(unit 1)
@@ -17156,7 +17178,7 @@
 			(uuid "0ac1e378-84a7-42d5-8732-0df32131402b")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR02")
 					(unit 1)
@@ -17239,7 +17261,7 @@
 			(uuid "da1080b4-03b0-4538-b543-148e73b5dc3a")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_B4")
 					(unit 1)
@@ -17305,7 +17327,7 @@
 			(uuid "6e111af9-8f19-4b6f-b167-97f24e063d7e")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR050")
 					(unit 1)
@@ -17373,7 +17395,7 @@
 			(uuid "e0014935-e021-4e16-a28f-c63538345bc7")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R13")
 					(unit 1)
@@ -17442,7 +17464,7 @@
 			(uuid "1049df43-a29b-4fe0-8dcb-037981952a45")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C11")
 					(unit 1)
@@ -17507,7 +17529,7 @@
 			(uuid "6dc473bc-cc84-401d-9d84-018b7e970678")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR044")
 					(unit 1)
@@ -17576,7 +17598,7 @@
 			(uuid "3b49e1ab-2b18-4bd5-8f4f-96d5c29919c1")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C18")
 					(unit 1)
@@ -17641,7 +17663,7 @@
 			(uuid "5e0c5d66-842c-4b9f-a2dd-999cf7d125e2")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR061")
 					(unit 1)
@@ -17711,7 +17733,7 @@
 			(uuid "92de66cd-84b5-4c46-982e-929ee66d943d")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "PWR1")
 					(unit 1)
@@ -17797,7 +17819,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8ab")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN1")
 					(unit 2)
@@ -17902,7 +17924,7 @@
 			(uuid "d5802dc2-d92f-417b-9da0-8d6cd5d42b26")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U4")
 					(unit 5)
@@ -17988,7 +18010,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8af")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN5")
 					(unit 4)
@@ -18074,7 +18096,7 @@
 			(uuid "cb5420b5-3401-45d6-ac58-322f9ace4013")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U7")
 					(unit 2)
@@ -18169,7 +18191,7 @@
 			(uuid "2f5fbd5b-11ce-4dbe-8d67-c1ff974c8bb7")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "LD_E1")
 					(unit 1)
@@ -18237,7 +18259,7 @@
 			(uuid "33541d53-92e2-43fa-ac07-2a2794678f7d")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R3")
 					(unit 1)
@@ -18262,7 +18284,7 @@
 				)
 			)
 		)
-		(property "Value" "160k"
+		(property "Value" "120k"
 			(at 100.33 58.42 90)
 			(effects
 				(font
@@ -18304,7 +18326,7 @@
 			(uuid "19fbe2a2-9c64-4eb9-974a-a6513a15e328")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R27")
 					(unit 1)
@@ -18390,7 +18412,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8ac")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN3")
 					(unit 2)
@@ -18495,7 +18517,7 @@
 			(uuid "a52c9f35-aebd-4159-bcf8-70a67373d309")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U1")
 					(unit 5)
@@ -18564,7 +18586,7 @@
 			(uuid "13b401ed-9933-4c54-bea5-277e3f89d0e2")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C13")
 					(unit 1)
@@ -18631,7 +18653,7 @@
 			(uuid "1744d4c8-84f6-4f9d-8ae3-4cb130ec9584")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR07")
 					(unit 1)
@@ -18696,7 +18718,7 @@
 			(uuid "66c46da4-2831-4fe4-a542-f5eb7b51e0b7")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR040")
 					(unit 1)
@@ -18764,7 +18786,7 @@
 			(uuid "13a07eca-90d1-43fd-a235-cce9d7a7a809")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R17")
 					(unit 1)
@@ -18847,7 +18869,7 @@
 			(uuid "d0f0c3b8-942e-4b75-a45f-09e37e3c1b2d")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_B6")
 					(unit 1)
@@ -18952,7 +18974,7 @@
 			(uuid "b1edb1b4-411d-412b-b7f2-e9138794cbb1")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U4")
 					(unit 1)
@@ -19019,7 +19041,7 @@
 			(uuid "241f9721-3c01-4afd-90bd-2cf5db5ddaea")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR049")
 					(unit 1)
@@ -19123,7 +19145,7 @@
 			(uuid "040d4535-d616-4e22-85b8-8c5ab793fbf4")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U8")
 					(unit 2)
@@ -19188,7 +19210,7 @@
 			(uuid "f139626f-5a5c-4253-9d25-732df3fca7a2")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR041")
 					(unit 1)
@@ -19257,7 +19279,7 @@
 			(uuid "9ff09dcc-0166-4928-b30c-e208f2faeef5")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C9")
 					(unit 1)
@@ -19324,7 +19346,7 @@
 			(uuid "94698885-8de3-4a25-baaf-c54048471826")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R14")
 					(unit 1)
@@ -19389,7 +19411,7 @@
 			(uuid "7760203f-35be-464f-b5d2-113ddeae6fda")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR011")
 					(unit 1)
@@ -19459,7 +19481,7 @@
 			(uuid "5e294b87-c81f-4ca6-912c-b6e8797f549d")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "P_ATTA1")
 					(unit 1)
@@ -19525,7 +19547,7 @@
 			(uuid "96c16881-fe29-4efc-840a-fb97b94a33f1")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR020")
 					(unit 1)
@@ -19594,7 +19616,7 @@
 			(uuid "8fe4985d-03c4-4d9f-95bd-d1c7e8736b1c")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C7")
 					(unit 1)
@@ -19689,7 +19711,7 @@
 			(uuid "9eea4604-ecc3-4909-956e-f14509cecbcf")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "LD_K1")
 					(unit 1)
@@ -19756,7 +19778,7 @@
 			(uuid "ecabc6b9-d0c5-4b06-8531-5e1c31981c27")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#FLG01")
 					(unit 1)
@@ -19783,7 +19805,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "47pF"
 			(at 100.33 68.58 90)
 			(effects
 				(font
@@ -19825,7 +19847,7 @@
 			(uuid "de5a777e-b5e6-4277-b3bf-3d1dd3671906")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C22")
 					(unit 1)
@@ -19895,7 +19917,7 @@
 			(uuid "2bd48619-348c-4407-8bd6-014784c3aae1")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "P_THRS1")
 					(unit 1)
@@ -19965,7 +19987,7 @@
 			(uuid "bb4956b5-d38f-4c84-b24c-3554bd87a2e3")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "P_LENG1")
 					(unit 1)
@@ -20070,7 +20092,7 @@
 			(uuid "01aded37-5c44-4102-bf6e-0bd3b488f4c0")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U8")
 					(unit 7)
@@ -20156,7 +20178,7 @@
 			(uuid "410ad9ea-e7cc-493e-9a84-d75fa7c558ad")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "D1")
 					(unit 1)
@@ -20261,7 +20283,7 @@
 			(uuid "97000b57-4f53-40a0-9b9f-e1de6fe75975")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U3")
 					(unit 5)
@@ -20328,7 +20350,7 @@
 			(uuid "253b0f0f-55f3-43c0-8e2e-1cf34439b092")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR026")
 					(unit 1)
@@ -20414,7 +20436,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8b0")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN2")
 					(unit 1)
@@ -20518,7 +20540,7 @@
 			(uuid "040d4535-d616-4e22-85b8-8c5ab793fbf5")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U8")
 					(unit 5)
@@ -20583,7 +20605,7 @@
 			(uuid "473f20e2-01b4-4ca0-9358-ec5d1f10269a")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR013")
 					(unit 1)
@@ -20651,7 +20673,7 @@
 			(uuid "f62941c9-36fc-4271-91df-3c5229a41551")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R34")
 					(unit 1)
@@ -20781,7 +20803,7 @@
 			(uuid "15a65612-f6a1-48be-8425-8f5afb06c500")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U6")
 					(unit 3)
@@ -20850,7 +20872,7 @@
 			(uuid "2a3ce0c1-c216-4bca-bdcf-740b34483c2a")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C20")
 					(unit 1)
@@ -20915,7 +20937,7 @@
 			(uuid "9d2035c3-2d63-46c3-a5ce-1eb129e77ef8")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR053")
 					(unit 1)
@@ -20980,7 +21002,7 @@
 			(uuid "f5391bab-4079-4fdd-96a5-96a76204796c")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR03")
 					(unit 1)
@@ -21045,7 +21067,7 @@
 			(uuid "459a4a01-eb2d-43a9-8d6e-1ed1a0998707")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR012")
 					(unit 1)
@@ -21115,7 +21137,7 @@
 			(uuid "cd817e07-1bdc-475e-9c1c-814ff95e332e")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "P_EQ_K1")
 					(unit 1)
@@ -21182,7 +21204,7 @@
 			(uuid "b3924a36-d041-4d5d-946a-a0164ba314a2")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR021")
 					(unit 1)
@@ -21259,7 +21281,7 @@
 			(uuid "3dca2e75-037f-4b89-8a0a-02fa6bf86113")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_B1")
 					(unit 1)
@@ -21342,7 +21364,7 @@
 			(uuid "bc86f3c4-7f89-4c61-a323-dcce4ee8fa4a")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_B7")
 					(unit 1)
@@ -21414,7 +21436,7 @@
 			(uuid "28b4a938-8396-4507-bc82-7b3d1de1fcd9")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_TRIG1")
 					(unit 1)
@@ -21545,7 +21567,7 @@
 			(uuid "15a65612-f6a1-48be-8425-8f5afb06c501")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U6")
 					(unit 2)
@@ -21612,7 +21634,7 @@
 			(uuid "599376b1-b11f-47a3-ad15-4ded127cd027")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R29")
 					(unit 1)
@@ -21682,7 +21704,7 @@
 			(uuid "741b30fa-8eef-4ec0-9800-8de61571673f")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "P_MIX1")
 					(unit 1)
@@ -21749,7 +21771,7 @@
 			(uuid "507251a9-0ceb-47c8-9ae6-71bca2855182")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR043")
 					(unit 1)
@@ -21816,7 +21838,7 @@
 			(uuid "33dcea11-20a7-4a27-aafa-dbdf344fb53f")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR032")
 					(unit 1)
@@ -21901,7 +21923,7 @@
 			(uuid "6c2061e5-59f1-45ce-8dab-be4856e49fa3")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "D4")
 					(unit 1)
@@ -22005,7 +22027,7 @@
 			(uuid "040d4535-d616-4e22-85b8-8c5ab793fbf6")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U8")
 					(unit 4)
@@ -22071,7 +22093,7 @@
 			(uuid "ab419f81-764e-44ca-9fd0-326bb220161c")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR030")
 					(unit 1)
@@ -22143,7 +22165,7 @@
 			(uuid "68b4816d-0ed6-4a39-8a48-9ff6540f1b8c")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_EXT1")
 					(unit 1)
@@ -22249,7 +22271,7 @@
 			(uuid "3752bb72-709a-4d3f-a4c3-b95f926931aa")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U5")
 					(unit 4)
@@ -22316,7 +22338,7 @@
 			(uuid "b740b77d-9707-4292-8b62-b2785d863658")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R23")
 					(unit 1)
@@ -22384,7 +22406,7 @@
 			(uuid "ab94d3d3-00b0-417d-8c24-3a1bf75afe16")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R32")
 					(unit 1)
@@ -22470,7 +22492,7 @@
 			(uuid "0ab618ca-fd38-48c3-b013-83653f6aa62c")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "D6")
 					(unit 1)
@@ -22545,7 +22567,7 @@
 			(uuid "d2583105-f666-4171-937f-8931d259fcb3")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_A1")
 					(unit 1)
@@ -22675,7 +22697,7 @@
 			(uuid "15a65612-f6a1-48be-8425-8f5afb06c502")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U6")
 					(unit 1)
@@ -22744,7 +22766,7 @@
 			(uuid "5bba1b67-5698-44e6-ad3b-2513c3cc23a7")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C14")
 					(unit 1)
@@ -22810,7 +22832,7 @@
 			(uuid "77a2a726-80ca-41c4-a55f-6ae3999cf26f")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR028")
 					(unit 1)
@@ -22913,7 +22935,7 @@
 			(uuid "4e80981a-9924-4e12-bf9e-7425710b9109")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U8")
 					(unit 3)
@@ -22980,7 +23002,7 @@
 			(uuid "3ba74635-f9d6-4eac-b5ac-59b19a46fb15")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R31")
 					(unit 1)
@@ -23046,7 +23068,7 @@
 			(uuid "00d44fdf-d28d-4c7f-9856-aeff4f5f313c")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR022")
 					(unit 1)
@@ -23112,7 +23134,7 @@
 			(uuid "a0e2cda2-8a41-4e75-b04f-ee37064ef7d9")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR08")
 					(unit 1)
@@ -23181,7 +23203,7 @@
 			(uuid "44969f97-2589-4c1a-a15c-e1b5a099efda")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C23")
 					(unit 1)
@@ -23266,7 +23288,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8b1")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN5")
 					(unit 1)
@@ -23351,7 +23373,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8b2")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN6")
 					(unit 1)
@@ -23456,7 +23478,7 @@
 			(uuid "3752bb72-709a-4d3f-a4c3-b95f926931ab")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U1")
 					(unit 2)
@@ -23522,7 +23544,7 @@
 			(uuid "91304876-0078-4fca-9fa2-f900544bb6fd")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR036")
 					(unit 1)
@@ -23590,7 +23612,7 @@
 			(uuid "fff55d7a-5368-4028-afaa-c76ed2f66175")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R15")
 					(unit 1)
@@ -23658,7 +23680,7 @@
 			(uuid "f7ea8adb-0e02-4e9b-9853-4164a621ac1c")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R20")
 					(unit 1)
@@ -23744,7 +23766,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8b3")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN1")
 					(unit 3)
@@ -23850,7 +23872,7 @@
 			(uuid "b1edb1b4-411d-412b-b7f2-e9138794cbab")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U4")
 					(unit 2)
@@ -23935,7 +23957,7 @@
 			(uuid "f0b6932b-b792-49f0-9512-543180ffc1f7")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "D2")
 					(unit 1)
@@ -24018,7 +24040,7 @@
 			(uuid "f8bc1a07-33a9-4bc5-9cc9-74f9894d6427")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_A6")
 					(unit 1)
@@ -24083,7 +24105,7 @@
 			(uuid "0834272d-ec66-4cd1-ba81-11cd344a5835")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR062")
 					(unit 1)
@@ -24155,7 +24177,7 @@
 			(uuid "9e300efd-fcbb-4adc-8004-2f3a735e0dc3")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_SND1")
 					(unit 1)
@@ -24220,7 +24242,7 @@
 			(uuid "159cd8a8-1e6c-4d9b-94d8-36ed583030da")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR058")
 					(unit 1)
@@ -24287,7 +24309,7 @@
 			(uuid "2c458685-d0e4-4c1d-97ca-2eab2630e33b")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR047")
 					(unit 1)
@@ -24392,7 +24414,7 @@
 			(uuid "b1edb1b4-411d-412b-b7f2-e9138794cbb0")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U5")
 					(unit 1)
@@ -24457,7 +24479,7 @@
 			(uuid "9bec6e9b-d796-4531-9c7c-9dda04894f6f")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR014")
 					(unit 1)
@@ -24526,7 +24548,7 @@
 			(uuid "162dc71d-a386-425a-9620-9e102bebfdfb")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C19")
 					(unit 1)
@@ -24591,7 +24613,7 @@
 			(uuid "9bff99ba-683a-4f7b-a58f-358a5e2b9374")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR051")
 					(unit 1)
@@ -24677,7 +24699,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8b4")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN2")
 					(unit 2)
@@ -24809,7 +24831,7 @@
 			(uuid "9fe4d788-8cda-4745-97ea-b3845978874f")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U6")
 					(unit 5)
@@ -24894,7 +24916,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8b5")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN1")
 					(unit 1)
@@ -24980,7 +25002,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8b6")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN2")
 					(unit 4)
@@ -25068,7 +25090,7 @@
 			(uuid "9e16c554-ae86-480c-b2ca-18cfe0837e2d")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN6")
 					(unit 3)
@@ -25171,7 +25193,7 @@
 			(uuid "1ae3e1d0-daed-48c3-adfe-76fd063334fa")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U3")
 					(unit 1)
@@ -25237,7 +25259,7 @@
 			(uuid "d9636c66-5f6a-42d5-8e2b-cc781b601fc2")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR035")
 					(unit 1)
@@ -25305,7 +25327,7 @@
 			(uuid "877f5ee5-1943-4832-9c5a-6b9c0587b602")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R2")
 					(unit 1)
@@ -25371,7 +25393,7 @@
 			(uuid "c6579b35-de66-4891-b74d-ce8d34b7e668")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR024")
 					(unit 1)
@@ -25441,7 +25463,7 @@
 			(uuid "c1967f03-a615-4ef8-9400-9df1b65cd0f7")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "P_EQ_F1")
 					(unit 1)
@@ -25513,7 +25535,7 @@
 			(uuid "e27dfb48-feb1-4cf3-9479-74c302ac6dfe")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_IN1")
 					(unit 1)
@@ -25580,7 +25602,7 @@
 			(uuid "6aaa5ac7-bcc9-4317-9b5f-2fccc0ebeea5")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R33")
 					(unit 1)
@@ -25685,7 +25707,7 @@
 			(uuid "3752bb72-709a-4d3f-a4c3-b95f926931ac")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U1")
 					(unit 1)
@@ -25788,7 +25810,7 @@
 			(uuid "1ae3e1d0-daed-48c3-adfe-76fd063334fc")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U3")
 					(unit 2)
@@ -25857,7 +25879,7 @@
 			(uuid "5d8a4f93-3c93-41f9-a4af-16a3d29e6fc5")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C15")
 					(unit 1)
@@ -25924,7 +25946,7 @@
 			(uuid "e506edb6-e921-4ecb-88bf-6a312706fcbe")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R4")
 					(unit 1)
@@ -25996,7 +26018,7 @@
 			(uuid "5589ff51-0083-40e9-9070-e957ad35ff84")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_ENV1")
 					(unit 1)
@@ -26073,7 +26095,7 @@
 			(uuid "683a14ad-0a7a-44c1-8c46-e66d68dd42ea")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_B5")
 					(unit 1)
@@ -26204,7 +26226,7 @@
 			(uuid "15a65612-f6a1-48be-8425-8f5afb06c503")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U6")
 					(unit 4)
@@ -26290,7 +26312,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8b7")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN3")
 					(unit 1)
@@ -26375,7 +26397,7 @@
 			(uuid "6f4e840d-326d-42fd-a16c-bd35c61f3da6")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "D10")
 					(unit 1)
@@ -26441,7 +26463,7 @@
 			(uuid "f9bc881c-1ba8-45df-bd9c-ee075fef8f0d")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR054")
 					(unit 1)
@@ -26507,7 +26529,7 @@
 			(uuid "e2e8d8de-bdec-4792-9669-3563c2491923")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR057")
 					(unit 1)
@@ -26613,7 +26635,7 @@
 			(uuid "3752bb72-709a-4d3f-a4c3-b95f926931ad")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U5")
 					(unit 3)
@@ -26678,7 +26700,7 @@
 			(uuid "d9f1e411-9e20-4d0d-aec0-33ca3bb134b1")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR059")
 					(unit 1)
@@ -26746,7 +26768,7 @@
 			(uuid "846ac409-35c7-4bc5-8e77-9665146ad64b")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C5")
 					(unit 1)
@@ -26812,7 +26834,7 @@
 			(uuid "9f7c887c-703a-4be1-8490-5fa02f5b7a92")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR015")
 					(unit 1)
@@ -26881,7 +26903,7 @@
 			(uuid "38fff59d-f809-43a4-8dc0-d90258e88855")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C16")
 					(unit 1)
@@ -26967,7 +26989,7 @@
 			(uuid "cb5420b5-3401-45d6-ac58-322f9ace4014")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U7")
 					(unit 3)
@@ -27033,7 +27055,7 @@
 			(uuid "5e887cde-9d0a-436c-b1e6-8d78697ab00b")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR09")
 					(unit 1)
@@ -27100,7 +27122,7 @@
 			(uuid "bce41f56-f87f-4d96-b1aa-6cd646f30074")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR037")
 					(unit 1)
@@ -27172,7 +27194,7 @@
 			(uuid "3f28aa91-4110-43fc-a99d-f3c1d7ed76a6")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_RET1")
 					(unit 1)
@@ -27238,7 +27260,7 @@
 			(uuid "f9f1d848-cec4-41ae-ab46-48af469d249b")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR018")
 					(unit 1)
@@ -27305,7 +27327,7 @@
 			(uuid "51309edd-25c7-4326-8961-ced48c78b68f")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR017")
 					(unit 1)
@@ -27409,7 +27431,7 @@
 			(uuid "1ae3e1d0-daed-48c3-adfe-76fd063334fd")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U1")
 					(unit 4)
@@ -27492,7 +27514,7 @@
 			(uuid "387d2399-8dba-4928-a409-02a03fba29e6")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_A2")
 					(unit 1)
@@ -27557,7 +27579,7 @@
 			(uuid "e5ee3c79-753d-4ab9-8fa1-4a781d2d1104")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR019")
 					(unit 1)
@@ -27661,7 +27683,7 @@
 			(uuid "040d4535-d616-4e22-85b8-8c5ab793fbf7")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U8")
 					(unit 1)
@@ -27747,7 +27769,7 @@
 			(uuid "dd4bce2e-b54a-488d-95e5-53af3f602d1e")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "D3")
 					(unit 1)
@@ -27814,7 +27836,7 @@
 			(uuid "a15596c3-ad0d-491b-8d2f-8ac3f040656f")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R21")
 					(unit 1)
@@ -27883,7 +27905,7 @@
 			(uuid "1d558590-d135-41e5-a0c4-509166a6c46f")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C8")
 					(unit 1)
@@ -27955,7 +27977,7 @@
 			(uuid "cb2577cf-12be-4f6b-aaee-16f902b028b4")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_OUT1")
 					(unit 1)
@@ -28061,7 +28083,7 @@
 			(uuid "3752bb72-709a-4d3f-a4c3-b95f926931a0")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U2")
 					(unit 3)
@@ -28147,7 +28169,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8b8")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN3")
 					(unit 4)
@@ -28232,7 +28254,7 @@
 			(uuid "28b0799b-61f2-44d5-b1e1-6f70f0c46d3d")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "D9")
 					(unit 1)
@@ -28317,7 +28339,7 @@
 			(uuid "6c19b034-92c0-40e9-a31f-be9effd82c11")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN4")
 					(unit 4)
@@ -28403,7 +28425,7 @@
 			(uuid "e98fc088-b241-4c4f-b5be-6bc5421599ac")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN6")
 					(unit 4)
@@ -28470,7 +28492,7 @@
 			(uuid "c5c5a561-2b10-43f8-8d79-05ff4310e527")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R18")
 					(unit 1)
@@ -28556,7 +28578,7 @@
 			(uuid "56a46b91-e039-4f57-bbda-9c7fccad6482")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "D7")
 					(unit 1)
@@ -28626,7 +28648,7 @@
 			(uuid "bf2230fb-c945-49de-bf91-6b459d2ddac6")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C12")
 					(unit 1)
@@ -28693,7 +28715,7 @@
 			(uuid "f1a85e8e-5082-460d-92f3-b2717ac03b68")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R12")
 					(unit 1)
@@ -28758,7 +28780,7 @@
 			(uuid "e8df6aff-3b69-4cae-bbd8-72e944d9f7c7")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR029")
 					(unit 1)
@@ -28863,7 +28885,7 @@
 			(uuid "3752bb72-709a-4d3f-a4c3-b95f926931ae")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U1")
 					(unit 3)
@@ -28949,7 +28971,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8b9")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN5")
 					(unit 3)
@@ -29014,7 +29036,7 @@
 			(uuid "a83ac2e3-ee76-4efe-9e9c-a481fdd97aa3")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR033")
 					(unit 1)
@@ -29097,7 +29119,7 @@
 			(uuid "cd46e974-8d07-48bf-b162-616273aa5a6a")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_B2")
 					(unit 1)
@@ -29162,7 +29184,7 @@
 			(uuid "8466f343-f47a-40a3-bb48-0b433463de05")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR04")
 					(unit 1)
@@ -29268,7 +29290,7 @@
 			(uuid "3752bb72-709a-4d3f-a4c3-b95f926931af")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U5")
 					(unit 2)
@@ -29340,7 +29362,7 @@
 			(uuid "5aa57dad-2281-4d7a-9d8d-19c0bfbd8df5")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_GATE1")
 					(unit 1)
@@ -29407,7 +29429,7 @@
 			(uuid "491e850b-1e7b-4e31-8852-562aa3852ac9")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R9")
 					(unit 1)
@@ -29477,7 +29499,7 @@
 			(uuid "789eb3d8-6d39-4059-be08-0ef43e7c33a0")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C6")
 					(unit 1)
@@ -29546,7 +29568,7 @@
 			(uuid "e947dd8d-d7b7-403b-8542-86a7c06e8887")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C17")
 					(unit 1)
@@ -29613,7 +29635,7 @@
 			(uuid "4163c78d-51ec-4f6b-bc3a-836812bc0423")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R11")
 					(unit 1)
@@ -29680,7 +29702,7 @@
 			(uuid "41a35e89-b1e9-420e-9085-df93fb405384")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR045")
 					(unit 1)
@@ -29749,7 +29771,7 @@
 			(uuid "43c3ac70-89e4-4ffb-abb5-10c4695cfac2")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C10")
 					(unit 1)
@@ -29817,7 +29839,7 @@
 			(uuid "2ee88437-9b96-443d-b8be-1c47cc718473")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R26")
 					(unit 1)
@@ -29884,7 +29906,7 @@
 			(uuid "1ef1d1af-dd8d-4573-b41b-0cc814985f0e")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR025")
 					(unit 1)
@@ -29969,7 +29991,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8ba")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN5")
 					(unit 2)
@@ -30036,7 +30058,7 @@
 			(uuid "01936028-17e6-4be7-b465-9ee520882566")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C2")
 					(unit 1)
@@ -30131,7 +30153,7 @@
 			(uuid "959b24ce-4fc2-4744-bcdf-2acd698ae580")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "LD_F1")
 					(unit 1)
@@ -30199,7 +30221,7 @@
 			(uuid "a53fc9fb-3217-42bc-be1b-8c6b7776b638")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R6")
 					(unit 1)
@@ -30285,7 +30307,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8bb")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN1")
 					(unit 4)
@@ -30391,7 +30413,7 @@
 			(uuid "b1edb1b4-411d-412b-b7f2-e9138794cbae")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U4")
 					(unit 3)
@@ -30457,7 +30479,7 @@
 			(uuid "e14868b6-53c5-4284-bbba-4a3b32df7ab6")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR034")
 					(unit 1)
@@ -30528,7 +30550,7 @@
 			(uuid "bb485dc4-3388-4697-8aa2-72b22c57bb0a")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "P_DUCK1")
 					(unit 1)
@@ -30603,7 +30625,7 @@
 			(uuid "6001307e-f972-4682-9a95-1f212ec65b95")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_A5")
 					(unit 1)
@@ -30670,7 +30692,7 @@
 			(uuid "be7d64d6-e295-47f5-bb6c-9c2f51573828")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C1")
 					(unit 1)
@@ -30737,7 +30759,7 @@
 			(uuid "a457136f-5747-45a1-815e-7c963229ac44")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R16")
 					(unit 1)
@@ -30806,7 +30828,7 @@
 			(uuid "aad86d0e-3425-4f67-8946-bb36388976db")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "C21")
 					(unit 1)
@@ -30873,7 +30895,7 @@
 			(uuid "1a03a9dd-9772-4578-a44b-4d112a0b8d5b")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R5")
 					(unit 1)
@@ -30939,7 +30961,7 @@
 			(uuid "bfc26d65-4366-4015-b1db-2c96bbd79df3")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR031")
 					(unit 1)
@@ -31026,7 +31048,7 @@
 			(uuid "089efe20-bae0-4962-80a0-8c4cdf00441b")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "D11")
 					(unit 1)
@@ -31112,7 +31134,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8bc")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN4")
 					(unit 2)
@@ -31187,7 +31209,7 @@
 			(uuid "e7cfcd85-edb2-4870-8041-edb56ef77978")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_A3")
 					(unit 1)
@@ -31292,7 +31314,7 @@
 			(uuid "3752bb72-709a-4d3f-a4c3-b95f926931a1")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U2")
 					(unit 4)
@@ -31397,7 +31419,7 @@
 			(uuid "759d0f71-f667-446b-9836-ba214c0e8e6e")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U2")
 					(unit 5)
@@ -31464,7 +31486,7 @@
 			(uuid "03d20ccd-82e3-475c-bc28-859260267e8d")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R7")
 					(unit 1)
@@ -31550,7 +31572,7 @@
 			(uuid "d1d24c89-b1a4-43a9-806f-2d224dccf8bd")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "RN6")
 					(unit 2)
@@ -31615,7 +31637,7 @@
 			(uuid "1a2462c9-46a8-4137-b9e3-4566c3b2bbb2")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR016")
 					(unit 1)
@@ -31698,7 +31720,7 @@
 			(uuid "c2f7b194-1379-465a-a82c-697d8d0966a6")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "J_A4")
 					(unit 1)
@@ -31801,7 +31823,7 @@
 			(uuid "1ae3e1d0-daed-48c3-adfe-76fd063334fe")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U3")
 					(unit 3)
@@ -31887,7 +31909,7 @@
 			(uuid "4c3682c9-543c-4142-8ed9-68f1e02c840d")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "D8")
 					(unit 1)
@@ -31954,7 +31976,7 @@
 			(uuid "83e71027-4d37-4450-a990-a9e0e05d6341")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "R19")
 					(unit 1)
@@ -32024,7 +32046,7 @@
 			(uuid "20a93ee1-1bcb-41b4-950a-15b1485773a9")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "P_DECA1")
 					(unit 1)
@@ -32130,7 +32152,7 @@
 			(uuid "3752bb72-709a-4d3f-a4c3-b95f926931b0")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U4")
 					(unit 4)
@@ -32212,7 +32234,7 @@
 			(uuid "44a669ce-edaa-4132-a7e0-fdec7c55f210")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "Q1")
 					(unit 1)
@@ -32298,7 +32320,7 @@
 			(uuid "83a46305-81b4-4c7b-bf02-536e8d324464")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "D5")
 					(unit 1)
@@ -32364,7 +32386,7 @@
 			(uuid "1871a642-e7af-420f-b2e5-0b4442424381")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "#PWR023")
 					(unit 1)
@@ -32470,7 +32492,7 @@
 			(uuid "3752bb72-709a-4d3f-a4c3-b95f926931a5")
 		)
 		(instances
-			(project "KickAid"
+			(project "KickAid_NEW"
 				(path "/74e4cb63-245d-4238-8405-ca331690653d"
 					(reference "U2")
 					(unit 2)

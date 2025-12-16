@@ -6097,7 +6097,7 @@
 		(layer "Edge.Cuts")
 		(uuid "16bc3d29-d2ad-4466-8619-d126bd840a25")
 	)
-	(gr_text "KickAid v1.0"
+	(gr_text "KickAid v1.2"
 		(at 81.915 69.85 90)
 		(layer "B.SilkS")
 		(uuid "0a927a19-a768-4e24-9c18-8845f1a5294b")
