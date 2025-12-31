@@ -1,13 +1,13 @@
 (export (version "E")
   (design
     (source "E:\\My-Dev\\Modular Synth\\Avalon Harmonics\\KickAid\\KickAid.kicad_sch")
-    (date "2025-11-02T15:19:55+0100")
+    (date "2025-12-31T15:48:14+0100")
     (tool "Eeschema 8.0.2")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
         (title "Avalon Harmonics KickAid")
         (company "Avalon Harmonics")
-        (rev "v1.2")
+        (rev "v1.3")
         (date)
         (source "KickAid.kicad_sch")
         (comment (number "1") (value ""))
@@ -1601,7 +1601,7 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "ab5c905d-ad33-40d3-bc77-9737fe2d49f1"))
     (comp (ref "R34")
-      (value "100k")
+      (value "240k")
       (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
       (fields
         (field (name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
