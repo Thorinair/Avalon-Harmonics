@@ -9,6 +9,7 @@
 	(paper "A4")
 	(title_block
 		(date "2022-03-21")
+		(rev "v1.0")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -113,7 +114,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels:Panel Switch SubMini"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -211,7 +212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels:Panel LED 3mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -298,7 +299,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels:Panel Screw"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -397,7 +398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels:Panel Screw"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -496,7 +497,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels:Panel Jack"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -594,7 +595,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels:Panel Screw"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -693,7 +694,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels:Panel Pot Alpha"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -780,7 +781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels:Panel Screw"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -879,7 +880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels:Panel Screw"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -978,7 +979,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels:Panel Jack"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1076,7 +1077,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels:Panel LED 3mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1161,7 +1162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels_Graphics:Nucleus_Panel"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2169,7 +2170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels:Panel Screw"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2268,7 +2269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels:Panel Screw"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2367,7 +2368,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels:Panel Screw"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2466,7 +2467,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels:Panel LED 3mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2553,7 +2554,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Panels:Panel Jack"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2651,7 +2652,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Logos:Avali Logo 10mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

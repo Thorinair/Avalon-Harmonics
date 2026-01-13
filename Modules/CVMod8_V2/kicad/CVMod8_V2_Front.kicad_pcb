@@ -7,6 +7,9 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(rev "v2.1")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -4574,7 +4577,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "996d8973-6138-4921-86e9-631c53027cab")
+			(uuid "173342f2-5a65-4b98-9b59-0ea756e28866")
 			(effects
 				(font
 					(size 1 1)
@@ -4587,7 +4590,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7df93813-f335-4bef-9777-3214c791de3d")
+			(uuid "f78de37a-51ab-4df2-9980-a998ce957baa")
 			(effects
 				(font
 					(size 1 1)
@@ -4636,7 +4639,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ec1112f-2a48-4753-97cb-00928fb0e35c")
+			(uuid "a67646c4-a38b-459d-82fa-146259f01dc5")
 			(effects
 				(font
 					(size 1 1)
@@ -4651,7 +4654,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(zone_connect 2)
-			(uuid "9468e2e7-cebc-44ce-9665-6e8a09fd7f47")
+			(uuid "5af24d86-09b7-4297-bada-d6945047e138")
 		)
 	)
 	(footprint "Potentiometer_THT:Potentiometer_Bourns_PTA3043_Single_Slide"
@@ -7772,7 +7775,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "996d8973-6138-4921-86e9-631c53027cab")
+			(uuid "c823646b-1b92-4c19-905a-0ee5fffea9d8")
 			(effects
 				(font
 					(size 1 1)
@@ -7785,7 +7788,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7df93813-f335-4bef-9777-3214c791de3d")
+			(uuid "28614132-3f22-484e-b02b-13365d191cd3")
 			(effects
 				(font
 					(size 1 1)
@@ -7834,7 +7837,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ec1112f-2a48-4753-97cb-00928fb0e35c")
+			(uuid "b3573d04-3f21-4ba5-b55d-f5c42d850888")
 			(effects
 				(font
 					(size 1 1)
@@ -7849,7 +7852,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(zone_connect 2)
-			(uuid "9468e2e7-cebc-44ce-9665-6e8a09fd7f47")
+			(uuid "e15066ef-6bf3-416f-875b-fffe2af21792")
 		)
 	)
 	(footprint "Eurorack:SPDT"
@@ -11674,7 +11677,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "996d8973-6138-4921-86e9-631c53027cab")
+			(uuid "693e94e5-cd6c-4159-b021-0b4452f78607")
 			(effects
 				(font
 					(size 1 1)
@@ -11687,7 +11690,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7df93813-f335-4bef-9777-3214c791de3d")
+			(uuid "f8157790-2c1c-41fb-84ae-3b2bb7dc778f")
 			(effects
 				(font
 					(size 1 1)
@@ -11736,7 +11739,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ec1112f-2a48-4753-97cb-00928fb0e35c")
+			(uuid "d0cc642e-54d5-4d17-bbe4-8ff17f5a912c")
 			(effects
 				(font
 					(size 1 1)
@@ -11751,7 +11754,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(zone_connect 2)
-			(uuid "9468e2e7-cebc-44ce-9665-6e8a09fd7f47")
+			(uuid "58321bee-3416-4008-85e1-19ee391818cc")
 		)
 	)
 	(footprint "Eurorack:SPDT"
@@ -13988,7 +13991,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "996d8973-6138-4921-86e9-631c53027cab")
+			(uuid "ecfbb251-36ee-42f4-9a8b-c3b1aeac60a0")
 			(effects
 				(font
 					(size 1 1)
@@ -14001,7 +14004,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7df93813-f335-4bef-9777-3214c791de3d")
+			(uuid "33065fd6-9ac6-4512-b80e-b385511f8391")
 			(effects
 				(font
 					(size 1 1)
@@ -14050,7 +14053,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ec1112f-2a48-4753-97cb-00928fb0e35c")
+			(uuid "c5adeb90-25c4-4d95-967a-de8dfa29ad29")
 			(effects
 				(font
 					(size 1 1)
@@ -14065,7 +14068,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(zone_connect 2)
-			(uuid "9468e2e7-cebc-44ce-9665-6e8a09fd7f47")
+			(uuid "e6255e6c-847e-4ff9-a1d0-914bb77db841")
 		)
 	)
 	(footprint "Eurorack:PJ301M-12 Offset"
@@ -21204,7 +21207,7 @@
 		(layer "User.6")
 		(uuid "4b141374-43ce-4659-9c92-0375a595f2e1")
 	)
-	(gr_text "CVMod8 V2 v2.0"
+	(gr_text "CVMod8 V2 v2.1"
 		(at 87.757 123.952 0)
 		(layer "B.SilkS")
 		(uuid "36ed9125-edc0-4478-9388-beca10395f9f")

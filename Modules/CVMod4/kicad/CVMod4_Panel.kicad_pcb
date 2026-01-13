@@ -7,6 +7,9 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(rev "v1.2")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -6747,7 +6750,7 @@
 		(layer "Edge.Cuts")
 		(uuid "4b141374-43ce-4659-9c92-0375a595f2e1")
 	)
-	(gr_text "CVMod4 v1.0"
+	(gr_text "CVMod4 v1.2"
 		(at 64.008 40.005 0)
 		(layer "B.SilkS")
 		(uuid "0997d026-79c9-4380-a810-051be81d81d9")

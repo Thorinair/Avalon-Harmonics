@@ -7,6 +7,9 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(rev "v1.2")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -2527,7 +2530,7 @@
 		(descr "LED, Round, FlatTop, diameter 3.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-47XEC(Ver.9A).pdf")
 		(tags "LED Round FlatTop diameter 3.0mm 2 pins")
 		(property "Reference" "LD_K"
-			(at 4.323 0 270)
+			(at 4.323 0 -90)
 			(layer "F.SilkS")
 			(uuid "828cbdac-94bb-4fcb-a538-083fd74c93cb")
 			(effects

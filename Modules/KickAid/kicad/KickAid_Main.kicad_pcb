@@ -7,6 +7,9 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(rev "v1.2")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -21323,7 +21326,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "240k"
 			(at 1.27 -2.37 180)
 			(layer "B.Fab")
 			(uuid "7ceba4e7-2e43-44bc-b0be-e00560f4aba6")
