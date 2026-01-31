@@ -2,7 +2,7 @@
 
 **Mono VU meter with envelope follower output**
 
-**NOTE: This module is rather deep at 66mm to the tip of the power pins, or 70.5mm to the back end of the included cable's connector. Make sure to check if it fits in your case.**
+Now comes as an SMD module. **Features a golden (ENIG coated) panel.** THT version has been discontinued.
 
 VU is a highly compact mono VU meter and envelope follower. The VU display consists of 5 yellow, 3 orange, and 2 red LEDs. The module provides an input jack on the bottom, and a buffered output jack on top, allowing it to be placed right before the master output if so desired. Note that there is no AC coupling, so the module can also be used with slow moving CV signals if so desired.
 
@@ -18,6 +18,8 @@ In order to make the module compatible for different rack setups, a trimmer on t
 
 Lastly, the brightness of the last LED can be adjusted with a trimmer on the PCB (T_LED). The brightness can range from around same brightness like all other LEDs, to much brighter. Making the last LED brighter might be desireable to make the peak more visually obvious.
 
+**NOTE: The THT version of this module is rather deep at 66mm to the tip of the power pins, or 70.5mm to the back end of the included cable's connector. Make sure to check if it fits in your case.**
+
 Visit Website: https://avalon-harmonics.com/module/VU/
 
 ### Features
@@ -30,5 +32,5 @@ Visit Website: https://avalon-harmonics.com/module/VU/
 * Low power use for the number of LEDs
 * Wrong polarity protection
 * Size: 2HP
-* Depth: 66mm
-* Power: +12V: 36mA, -12V: 15mA
+* Depth: 35mm (66mm THT)
+* Power: +12V: 31mA, -12V: 14mA (+12V: 36mA, -12V: 15mA THT)
