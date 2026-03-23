@@ -44,6 +44,7 @@ Visit Website: https://avalon-harmonics.com/module/CVMod8_V2/
 * Togglable forwarding of outputs to next channel
 * Status LEDs for each channel
 * Wrong polarity protection
+* Skiff friendly
 * Size: 20HP
 * Depth: 25mm  (36mm THT)
 * Power: +12V: 115mA, -12V: 104mA (+12V: 123mA, -12V: 111mA THT)
