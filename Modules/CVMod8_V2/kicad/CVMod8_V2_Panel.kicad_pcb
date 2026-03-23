@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(rev "v2.1")
+		(rev "v2.2")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -12098,7 +12098,7 @@
 		(layer "Edge.Cuts")
 		(uuid "4b141374-43ce-4659-9c92-0375a595f2e1")
 	)
-	(gr_text "CVMod8 V2 v2.1"
+	(gr_text "CVMod8 V2 v2.2\n"
 		(at 87.884 40.005 0)
 		(layer "B.SilkS")
 		(uuid "0997d026-79c9-4380-a810-051be81d81d9")
