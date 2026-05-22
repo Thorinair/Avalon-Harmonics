@@ -27,3 +27,7 @@ Visit Website: https://avalon-harmonics.com/module/MiniDJ/
 * Size: 6HP
 * Depth: 26mm
 * Power: +12V: 93mA, -12V: 89mA
+
+### Credits
+
+* Filter circuit based on [Thomas Henry's VCF circuit](https://www.birthofasynth.com/Thomas_Henry/Pages/VCF-1.html)
