@@ -14,7 +14,7 @@ Lastly, the filter has a dedicated PING input jack. A gate, trigger, or even an 
 
 **CALIBRATION:** V/OCT of the cutoff can be calibrated. All modules I build and ship come pre-calibrated, but there might be a slight difference depending on your power supply or some other factors like temperature. To calibrate Puff, set the RES knob to the max, keep the audio inputs unplugged, connect your keyboard or sequencer's V/OCT and GATE to Puff's V/OCT and PING, and start playing notes. I suggest using a proper tuner, some modules can do this, and there is also Korg's ST1K tuner. Calibration of Puff is very similar to any VCO, but you need to constantly send it gates or triggers to keep the tone going, as it can't continuously self-oscillate.
 
-*How did the name "Puff" happen? I wanted a cute, silly and unique name. I played around in my head with multiple different ones like Fluff, Floof, Poof, Puff, but eventually ended up with Puff. Puff as in, apufferfish, a puffed up bird, etc!*
+*How did the name "Puff" happen? I wanted a cute, silly and unique name. I played around in my head with multiple different ones like Fluff, Floof, Poof, Puff, but eventually ended up with Puff. Puff as in, a pufferfish, a puffed up bird, etc!*
 
 Visit Website: https://avalon-harmonics.com/module/Puff/
 
